@@ -4,106 +4,50 @@ Este repositório contém soluções para os desafios propostos no processo sele
 
 ## Desafios
 
-### 1) Cálculo da Soma
-
-Observe o trecho de código abaixo:
-
-```js
-int INDICE = 13, SOMA = 0, K = 0;
-Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
-Imprimir(SOMA);
-```
-
-### 2) Sequência de Fibonacci
+### 1) Sequência de Fibonacci
 
 Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 
 IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
-### 3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
+### 2) Identifica Quantidfade de letras 'a' em uma string
 
--   O menor valor de faturamento ocorrido em um dia do mês;
--   O maior valor de faturamento ocorrido em um dia do mês;
--   Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre.
 
-IMPORTANTE:
+IMPORTANTE: Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 
--   a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
--   b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+### 3) Cálculo da Soma
 
-```bash
-[
-  { "dia": 1, "valor": 22174.1664 },
-  { "dia": 2, "valor": 24537.6698 },
-  { "dia": 3, "valor": 26139.6134 },
-  { "dia": 4, "valor": 0.0 },
-  { "dia": 5, "valor": 0.0 },
-  { "dia": 6, "valor": 26742.6612 },
-  { "dia": 7, "valor": 0.0 },
-  { "dia": 8, "valor": 42889.2258 },
-  { "dia": 9, "valor": 46251.174 },
-  { "dia": 10, "valor": 11191.4722 },
-  { "dia": 11, "valor": 0.0 },
-  { "dia": 12, "valor": 0.0 },
-  { "dia": 13, "valor": 3847.4823 },
-  { "dia": 14, "valor": 373.7838 },
-  { "dia": 15, "valor": 2659.7563 },
-  { "dia": 16, "valor": 48924.2448 },
-  { "dia": 17, "valor": 18419.2614 },
-  { "dia": 18, "valor": 0.0 },
-  { "dia": 19, "valor": 0.0 },
-  { "dia": 20, "valor": 35240.1826 },
-  { "dia": 21, "valor": 43829.1667 },
-  { "dia": 22, "valor": 18235.6852 },
-  { "dia": 23, "valor": 4355.0662 },
-  { "dia": 24, "valor": 13327.1025 },
-  { "dia": 25, "valor": 0.0 },
-  { "dia": 26, "valor": 0.0 },
-  { "dia": 27, "valor": 25681.8318 },
-  { "dia": 28, "valor": 1718.1221 },
-  { "dia": 29, "valor": 13220.495 },
-  { "dia": 30, "valor": 8414.61 }
-];
-
-```
-
-### 4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+Observe o trecho de código abaixo:
 
 ```js
-• SP – R$67.836,43
-• RJ – R$36.678,66
-• MG – R$29.229,88
-• ES – R$27.165,48
-• Outros – R$19.849,53
+int INDICE = 12, SOMA = 0, K = 0;
+Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
+Imprimir(SOMA);
 ```
 
-Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
+### 4) Descubra a lógica e complete o próximo elemento:
 
-### 5) Escreva um programa que inverta os caracteres de um string.
+-   a) 1, 3, 5, 7, \_\_\_
+-   b) 2, 4, 8, 16, 32, 64, \_\_\_\_
+-   c) 0, 1, 4, 9, 16, 25, 36, \_\_\_\_
+-   d) 4, 16, 36, 64, \_\_\_\_
+-   e) 1, 1, 2, 3, 5, 8, \_\_\_\_
+-   f) 2,10, 12, 16, 17, 18, 19, \_\_\_\_
 
-IMPORTANTE:
+## Resposta :
 
--   a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
--   b) Evite usar funções prontas, como, por exemplo, reverse;
+-   a) 9
+-   b) 128
+-   c) 49
+-   d) 100
+-   e) 13
+-   f) 20
 
-# RESULTADOS:
+### 5) Qual interruptor controla cada lâmpada?
 
-## Desafio 1
+Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
-<img src="./desafio1.png" alt="Texto Alternativo" style="float: left; margin-right: 10px;" />
+## Resposta :
 
-## Desafio 2
-
-<img src="./desafio2.png" alt="Texto Alternativo" style="float: left; margin-right: 10px;" />
-
-## Desafio 3
-
-<img src="./desafio3.png" alt="Texto Alternativo" style="float: left; margin-right: 10px;" />
-
-## Desafio 4
-
-<img src="./desafio4.png" alt="Texto Alternativo" style="float: left; margin-right: 10px;" />
-
-## Desafio 5
-
-<img src="./desafio5.png" alt="Texto Alternativo" style="float: left; margin-right: 10px;" />
+Poderia resolver isso utilizando apenas uma ida. Eu iria até o interruptor, ligaria uma das lâmpadas e deixaria ligada por alguns poucos minutos, após isso eu desligaria essa lâmpada e ligaria outro interruptor , aí então eu iria até a sala. A lâmpada que estive desligada mas ainda aquecida por ter ficado uns minutos ligada seria a lâmpada referente ao primeiro interruptor , a lâmpada acesa seria referente ao segundo interruptor que deixei ligado, já a lâmpada desligada e fria seria referente ao terceiro interruptor que não foi acionado em nenhum momento.
